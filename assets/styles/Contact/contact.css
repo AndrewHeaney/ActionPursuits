@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Bree Serif', serif;
+  color: #2ECC71;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 50px;
+}
+
+a.nav {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 4px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+nav {
+  margin-left: 330px;
+  margin-top: -50px;
+}
+
+.navLine {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+img.search {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -12px;
+  margin-left: 8px;
+  margin-right: 0px;
+}
+
+input.search {
+  border: none;
+  background-color: transparent;
+  margin-bottom: 10px;
+  margin-left: 265px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.behindSearch {
+  width: 210px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50px/50px;
+  margin-left: 605px;
+  margin-top: -36px;
+}
+
+div.facebook {
+  width: 600px;
+  height: 140px;
+  margin: 0 auto;
+  background-color: #1F3A93;
+  margin-bottom: -90px;
+}
+
+a.facebook {
+  font-family: 'Bree Serif', serif;
+  font-size: 90px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+div.twitter {
+  width: 600px;
+  height: 140px;
+  margin: 0 auto;
+  background-color: #22A7F0;
+  margin-bottom: -90px;
+}
+
+a.twitter {
+  font-family: 'Bree Serif', serif;
+  font-size: 90px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+div.pinterest {
+  width: 600px;
+  height: 140px;
+  margin: 0 auto;
+  background-color: #D91E18;
+}
+
+a.pinterest {
+  font-family: 'Bree Serif', serif;
+  font-size: 90px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+div.email {
+  width: 600px;
+  height: 140px;
+  margin: 0 auto;
+  background-color: #049372;
+  margin-bottom: -80px;
+}
+
+a.email {
+  font-family: 'Bree Serif', serif;
+  font-size: 90px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+div.phone {
+  width: 600px;
+  height: 140px;
+  margin: 0 auto;
+  background-color: #F89406;
+}
+
+a.phone {
+  font-family: 'Bree Serif', serif;
+  font-size: 90px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+
+iframe {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -50px;
+}
+
+footer {
+  height: 200px;
+  width: 100% px;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+h2.footer {
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  color: white;
+  width: 250px;
+  padding-top: 70px;
+  margin-left: 55px;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  bottom: 150px;
+  border-radius: 100%;
+  position: relative;
+}
+
+.fb {
+  margin-left: 340px;
+  bottom: 70px;
+}
+
+.pin {
+  margin-left: 10px;
+  bottom: 70px;
+}
+
+.twit {
+  margin-left: 10px;
+  bottom: 70px;
+}
+
+ul.footer {
+  float: right;
+  margin-right: 500px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  margin-top: -95px;
+  padding-bottom: 20px;
+}
+
+.vertLine {
+  background-color: white;
+  position: relative;
+  margin-top: -145px;
+  margin-left: 600px;
+  width: 1px;
+  height: 100px;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+ul a:hover {
+  font-weight: bold;
+}
